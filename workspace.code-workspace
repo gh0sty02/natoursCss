@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\ML"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\project"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "advanced-css"
+	}
+}
