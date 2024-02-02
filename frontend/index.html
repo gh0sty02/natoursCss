@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="css/icon-font.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+        <script src="./app.js" defer></script>
         
         <title>Natours | Exciting tours for adventurous people</title>
     </head>
@@ -357,7 +358,7 @@
                 <div class="row">
                     <div class="book">
                         <div class="book__form">
-                            <form action="#" class="form">
+                            <form class="form">
                                 <div class="u-bottom-margin-medium">
                                     <h2 class="heading-secondary ">
                                      Start Booking Now
@@ -366,32 +367,32 @@
                                 </div>
 
                                 <div class="form__group">
-                                    <input type="text" id="text" placeholder="Full Name" class="form__input" required>
+                                    <input type="text" id="text" placeholder="Full Name" class="form__input name_input" required>
                                     <label for="text" class="form__label">Full Name</label>
                                 </div>
 
 
                                 <div class="form__group">
-                                    <input type="email" id="email" placeholder="Email" class="form__input" required>
+                                    <input type="email" id="email" placeholder="Email" class="form__input email_input" required>
                                     <label for="email" class="form__label">Email</label>
                                 </div>
 
                                 <div class="form__group">
                                     <div class="form__radio-group">
-                                        <input type="radio" id="small" class="form__radio-input" name="size">
+                                        <input type="radio" id="small" class="form__radio-input group_type" name="size">
                                         <label for="small" class="form__radio-label">
                                             <span class="form__radio-button"></span>
 
                                             Small Group</label>
                                     </div>
                                     <div class="form__radio-group">
-                                        <input type="radio" id="large" class="form__radio-input" name="size">
+                                        <input type="radio" id="large" class="form__radio-input group_type" name="size">
                                         <label for="large" class="form__radio-label">
                                             <span class="form__radio-button"></span>
                                             Large Group</label>
                                     </div>
                                     <div class="form__group u-top-margin-big">
-                                        <button class="btn btn--green">Next Step</button>    
+                                        <button class="btn btn--green" type="submit">Next Step</button>    
                                     </div>
                                 </div>
                             </form>
